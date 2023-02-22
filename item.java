@@ -2,7 +2,7 @@
  public class Item {
 //item fields
     private int lotNum;
-    private string buyerName
+    private string buyerName;
     private double price;
     private int yearSold;
     private string itemType;
@@ -17,5 +17,27 @@
         this.itemType = itemType;
 
     }
+
+    public int getLotNum() {
+       return lotNum;
+    }
+
+    public string getBuyerName() {
+        return buyerName;
+    }
+
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getYearSold() {
+        return yearSold;
+    }
+
+    public string getItemType() {
+        return itemType;
+    }
+ }
 
 
