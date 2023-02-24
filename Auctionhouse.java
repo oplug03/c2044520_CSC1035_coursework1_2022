@@ -7,13 +7,17 @@ public class Auctionhouse {
 
     public Auctionhouse(string name) {
         this.name = name;
-        list<item> SoldItems = new ArrayList<item>();
-
-
-
-
-
-
 
     }
+    public void additem (item Item) {
+        SoldItems.add(Item);
+
+    }
+
+    public string getName() {
+        return name;
+
+    }
+
+
 }
